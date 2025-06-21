@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Arithmetic Calculator</title>
+</head>
+<body>
+  <div class="cal">
+    <div>
+      <input type="text" id="display" readonly />
+    </div>
+    <div class="button">
+      <button class="but" onclick="append('1')">1</button>
+      <button class="but" onclick="append('2')">2</button>
+      <button class="but" onclick="append('3')">3</button>
+    </div>
+    <div class="button">
+      <button class="but" onclick="append('4')">4</button>
+      <button class="but" onclick="append('5')">5</button>
+      <button class="but" onclick="append('6')">6</button>
+    </div>
+    <div class="button">
+      <button class="but" onclick="append('7')">7</button>
+      <button class="but" onclick="append('8')">8</button>
+      <button class="but" onclick="append('9')">9</button>
+    </div>
+    <div class="button">
+      <button class="but" onclick="append('0')">0</button>
+      <button class="but" onclick="append('+')">+</button>
+      <button class="but" onclick="append('-')">-</button>
+    </div>
+    <div class="button">
+      <button class="but" onclick="append('/')">/</button>
+      <button class="but" onclick="append('*')">*</button>
+      <button class="but" onclick="clearDisplay()">C</button>
+    </div>
+    <div class="button">
+      <button class="but" onclick="calculate()">=</button>
+    </div>
+  </div>
+
+  <script src = "script.js">
+  </script>
+</body>
+</html>
