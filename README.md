@@ -1,4 +1,4 @@
-Arithmetic Calculator
+<h1>Arithmetic Calculator</h1>
 
 A simple Arithmetic Calculator built using HTML, CSS, and JavaScript. This calculator allows users to perform basic arithmetic operations like addition, subtraction, multiplication, and division in a user-friendly interface.
 
@@ -11,6 +11,11 @@ Clear input with the Clear (C) button
 Responsive and clean user interface
 
 Built using vanilla JavaScript, HTML, and CSS
+
+Screenshots
+
+<img width="263" height="330" alt="image" src="https://github.com/user-attachments/assets/383a6b9f-d1d5-4e60-b1f8-8fd1bab73716" />
+
 
 Technologies Used
 
